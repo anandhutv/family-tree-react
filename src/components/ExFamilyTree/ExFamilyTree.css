@@ -1,0 +1,71 @@
+.family-tree-container {
+    padding: 20px;
+    background-color: white;
+  }
+  
+  .family-tree-title {
+    margin-bottom: 20px;
+  }
+  
+  .controls {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .controls span {
+    margin-right: 10px;
+  }
+  
+  .controls input[type="checkbox"] {
+    margin-right: 20px;
+  }
+  
+  .styled-node {
+    padding: 5px;
+    border-radius: 8px;
+    display: inline-block;
+    border: 1px solid rgb(204, 204, 204);
+    background-color: white;
+    margin: 0 5px;
+  }
+  
+  .node-content {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  
+  .styled-img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .name {
+    margin-right: 10px;
+  }
+  
+  .more-button {
+    cursor: pointer;
+    color: #888;
+  }
+  
+  .couple-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Adjustments for react-organizational-chart */
+  .tree-node {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .tree-node-level {
+    display: flex;
+    justify-content: center;
+  }

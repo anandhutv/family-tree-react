@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import FamilyTree from './components/FamilyTree/FamilyTree';
+import ExFamilyTree from "./components/ExFamilyTree/ExFamilyTree";
 
 const familyData = {
   id: 0,
@@ -75,8 +75,7 @@ const familyData = {
 function App() {
   return (
     <div className="App">
-     <h1>Family Tree</h1>
-     <FamilyTree data={familyData}/>
+     <ExFamilyTree data={familyData}/>
     </div>
   );
 }
